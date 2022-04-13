@@ -41,7 +41,7 @@ class Menu extends Phaser.Scene {
         if (Phaser.Input.Keyboard.JustDown(keyA)) {
           // Novice mode
           game.settings = {
-            spaceshipSpeed: 3,
+            spaceshipSpeed: 4,
             gameTimer: 60000    
           }
           this.sound.play('sfx_select');
@@ -50,7 +50,7 @@ class Menu extends Phaser.Scene {
         if (Phaser.Input.Keyboard.JustDown(keyD)) {
           // Expert mode
           game.settings = {
-            spaceshipSpeed: 4,
+            spaceshipSpeed: 6,
             gameTimer: 45000    
           }
           this.sound.play('sfx_select');
